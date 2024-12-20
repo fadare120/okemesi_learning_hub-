@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: pink;
+    color: whitesmoke;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-image{
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    margin: 10px;
+}
+.nav-item{
+      padding-left: 10px;
+      display: flex;
+      padding: 10px;
+
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.login-btn,  
+.sign-up{
+    background-color:purple ;
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 30px;
+}
+ .hero-contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+ }
+ .hero-image{
+    width: 250px;
+    padding-left: 600px;
+    display: flex;
+    object-fit: 50px;
+
+ }
+
+
+
